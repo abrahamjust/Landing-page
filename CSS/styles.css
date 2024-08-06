@@ -71,3 +71,82 @@ a {
     padding: 10px 15px;
     border-radius: 8px;
 }
+
+.Info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.Middle {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    text-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: grey;
+}
+
+.Boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Indi-Box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Box {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
+
+.Quote-Section {
+    height: 500px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Quote {
+    width: 700px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-wrap: wrap;
+}
+
+.Quote-Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    padding-bottom: 0px;
+    height: 160px;
+}
+
+.Quoter {
+    display: flex;
+    width: 700px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-weight: bolder;
+    font-size: 20px;
+}
