@@ -1,3 +1,9 @@
+/*To remove the white border around the webpage (this overrides the default margin and padding set by the browser)*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #1f2937;
     height: 400px;
