@@ -28,7 +28,7 @@ a {
 .Main {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-left: 100px;
     margin-right: 100px;
 
@@ -68,7 +68,7 @@ a {
 .button {
     color: #f9faf8;
     background-color: #3882f6;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 8px;
 }
 
@@ -149,4 +149,61 @@ a {
     align-items: flex-start;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.Above-footer {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Action-box {
+    width: 1000px;
+    height: 200px;
+    background-color: #3882f6;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Action-box-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    height: 100px;
+}
+
+.Action-button {
+    color: #f9faf8;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.Call-action {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Action-sign-up {
+    color: #e5e7eb;
+}
+
+.Odin-copyright {
+    display: flex;
+    height: 100px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright-text {
+    color: #e5e7eb;
 }
