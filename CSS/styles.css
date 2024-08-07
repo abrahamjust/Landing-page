@@ -1,7 +1,7 @@
 /*To remove the white border around the webpage (this overrides the default margin and padding set by the browser)*/
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
